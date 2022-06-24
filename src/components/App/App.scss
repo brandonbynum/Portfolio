@@ -1,0 +1,25 @@
+@import "~bootstrap/scss/bootstrap";
+
+.content {
+    overflow-y: scroll;
+    scrollbar-width: None;
+};
+
+.sidebar {
+    width: 15%;
+}
+
+.container {
+    height: calc(100% - 75px)
+}
+
+ /* Hide scrollbar for Chrome, Safari and Opera */
+.example::-webkit-scrollbar {
+  display: none;
+}
+
+/* Hide scrollbar for IE, Edge and Firefox */
+.example {
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
+} 
